@@ -1,4 +1,4 @@
-var mongo_url = process.env.MONGOLAB_URI,
+var mongo_url = process.env.MONGODB_URL,
     params = /mongodb:\/\/(?:(\w+):(\w+)@)?([\w\.]+)(?::(\d+))?\/(\w+)/.exec(mongo_url);
 
 module.exports = {
